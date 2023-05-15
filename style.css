@@ -1,29 +1,375 @@
-html, body {
-    height: 100%;
+body{
+	width: 100%;
+	margin: auto;
+	object-fit: cover;
 }
-body {
-    margin: 0;
+.body{
+	width: 1224px;
+	margin: auto;
 }
-.flex-container {
-    border: 5px solid rgb(100, 100, 100);
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+button{
+	border:none;
+	outline: none;
+	cursor: pointer;
 }
-.row {
-    width: auto;
+a{
+	text-decoration: none;
+	color: #363e41;
 }
-.flex-item {
-    padding: 5px;
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    line-height: 20px;
-    color: black;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
+.bottom{
+	width: 100%;
+}
+.bottom img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.headimg{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+}
+.headimg img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.mheadimg{
+	position: absolute;
+	visibility: hidden;
+}
+.mbottom{
+	position: absolute;
+	visibility: hidden;
+}
+.logo1{
+	display: inline-block;
+	margin-top: 58px;
+	margin-left: 142px;
+}
+.menu{
+	cursor: pointer;
+	display: inline-block;
+	white-space: pre;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 114px;
+	color: #363e41;
+	font-family: "Majesti Banner";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 98px;
+}
+
+.baner{
+	margin-left: 143px;
+	margin-top: 97px;
+	height: 320px;
+}
+.baner1{
+	display: inline-block;
+}
+.baner2{
+	margin-left: 482px;
+	display: inline-block;
+}
+.img1{
+	position: absolute;
+}
+.recimg1{
+	position: absolute;
+}
+.content1{
+	position: absolute;
+	margin-top: 65px;
+	margin-left: 21px;
+}
+.title1{
+	width: 142px;
+	height: 44px;
+	color: #ffffff;
+	font-family: "Majesti Banner";
+	font-size: 21px;
+	font-weight: 700;
+}
+.text1{
+		margin-top: 17px;
+	width: 266px;
+	height: 57px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+#btn1{
+	margin-top: 14px;
+	width: 125px;
+	height: 45px;
+	background-color: #ffffff;
+	color: #00867c;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+}
+.art{
+	margin-top: 67px;
+	width: 100%;
+	height: 461px;
+	background-color: #1b9891;
+}
+#player1{
+	margin-left: 100px;
+	margin-top: 72px;
+	position: absolute;
+	display: inline-block;
+	background-color: black;
+}
+.content2{
+	display: inline-block;
+	position: absolute;
+	margin-top: 71px;
+	margin-left: 698px;
+}
+.title2{
+	width: 382px;
+}
+.text2{
+	width: 382px;
+	height: 162px;
+}
+.btn3{
+	margin-top: 21px;
+}
+.social{
+	margin-top: 35px;
+	margin-left: 73px;
+}
+.social div{
+	display: inline-block;
+}
+.facebook{
+	cursor: pointer;
+}
+.pinterest{
+	cursor: pointer;
+	margin-left: 63px;
+}
+.instagram{
+	cursor: pointer;
+	margin-left: 63px;
+}
+.smth{
+	cursor: pointer;
+	margin-left: 63px;
+}
+.twitter{
+	cursor: pointer;
+	margin-left: 63px;
+}
+.google{
+	cursor: pointer;
+	margin-left: 63px;
+}
+.unleash{
+	margin-top: 33px;
+}
+.content3{
+	position: absolute;
+	width: 605px;
+	height: 253px;
+	background-color: #ffffff;
+	margin: 86px 130px 189px 489px;
+}
+.title3{
+	margin-top: 34px;
+	margin-left: 30px;
+	width: 537px;
+	height: 67px;
+	color: #363e41;
+	font-family: "Majesti Banner";
+	font-size: 32px;
+	font-weight: 700;
+}
+.text3{
+	margin-left: 30px;
+	margin-top: 50px;
+	width: 519px;
+	height: 75px;
+	color: #363e41;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.testimonial{
+	margin-top: 101px;
+	margin-left: 206px;
+}
+.user{
+	margin-top: 6px;
+	position: absolute;
+	display: inline-block;
+}
+.name{
+	margin-left: 27px;
+	margin-top: 130px;
+	position: absolute;
+	width: 82px;
+	height: 18px;
+	color: #363e41;
+	font-family: "Majesti Banner";
+	font-size: 20px;
+	font-weight: 700;
+}
+.rec{
+	margin-left: 145px;
+	display: inline-block;
+	position: absolute;
+	border: 14px solid transparent; 
+	border-top: 14px solid #12a8e0; 
+	border-right: 14px solid #12a8e0;
+}
+.aria{
+	margin-left: 159px;
+	display: inline-block;
+	width: 714px;
+	height: 138px;
+	background-color: #12a8e0;
+}
+.text4{
+	margin-left: 36px;
+	margin-top: 31px;
+	width: 646px;
+	height: 76px;
+	color: #ffffff;
+	font-family: "Majesti Banner - Book Italic";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+}
+.footer{
+	margin-top: 100px;
+}
+.sep{
+	width: 1235px;
+height: 1px;
+border: 1px solid #d9d9d9;
+}
+.logo2{
+	display: inline-block;
+	margin-top: 65px;
+	margin-left: 142px;
+}
+.copyright{
+	margin-top: 21px;
+	margin-left: 85px;
+	width: 102px;
+	height: 18px;
+	color: #b8b8b8;
+	font-family: "Majesti Banner - Book";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+}
+.subscribe{
+	display: inline-block;
+}
+.title4{
+	width: 95px;
+	height: 15px;
+	color: #363e41;
+	font-family: "Majesti Banner";
+	font-size: 22px;
+	font-weight: 700;
+}
+.text5{
+	margin-top: 25px;
+	/* Style for "Write your" */
+	width: 212px;
+	height: 54px;
+	color: #969595;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	/* Text style for "W, rite yo" */
+	letter-spacing: 0.52px;
+}
+input{
+	margin-top: 26px;
+	/* Style for "field" */
+	width: 218px;
+	height: 50px;
+	background-color: #f4f4f4;
+	border:none;
+	outline: none;
+	color: #969595;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: 400;
+	/* Text style for "E, mail ad" */
+	letter-spacing: 0.48px;
+}
+#btn4{
+	margin-top: 8px;
+	width: 85px;
+	height: 45px;
+	background-color: #1b9891;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+}
+.maps{
+	display: inline-block;
+	margin-left: 22px;
+}
+.text6{
+	margin-top: 26px;
+	width: 118px;
+	height: 122px;
+	color: #969595;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	/* Text style for "1, 0:Am  t" */
+	letter-spacing: 0.52px;
+}
+.hours{
+	display: inline-block;
+	white-space: pre-line;
+	margin-left: 22px;
+}
+iframe{
+	margin-top: 21px;
+}
+.contacts{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	margin-left: 461px;
+	margin-top: -120px;
+}
+	@media screen and (max-width: 1224px){
+		body{
+			width: 100%;
+		}
+		.mheadimg{
+			position: absolute;
+			visibility: visible;
+		}
+		.mbottom{
+			position: absolute;
+			visibility: visible;	
+		}
+		.headimg{
+			visibility: hidden;
+		}
+		.bottom{
+			visibility: hidden;
+		}
 }
