@@ -1,6 +1,1 @@
-<?php
-$localIP = getHostByName(getHostName());
-// Displaying the address 
-echo $localIP;
-  
-?>
+<?php $localIP = getHostByName(getHostName()); echo $localIP;?>
